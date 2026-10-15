@@ -1,15 +1,15 @@
 module github.com/daangn/autopprof
 
-go 1.19
+go 1.26
 
 require (
-	github.com/containerd/cgroups v1.0.4
+	github.com/containerd/cgroups v1.1.0
 	github.com/golang/mock v1.6.0
-	github.com/slack-go/slack v0.14.0
+	github.com/slack-go/slack v0.30.1
 )
 
 require (
-	github.com/cilium/ebpf v0.4.0 // indirect
+	github.com/cilium/ebpf v0.9.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
 	github.com/godbus/dbus/v5 v5.0.4 // indirect
@@ -17,5 +17,5 @@ require (
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/opencontainers/runtime-spec v1.0.2 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
-	golang.org/x/sys v0.0.0-20210510120138-977fb7262007 // indirect
+	golang.org/x/sys v0.0.0-20210906170528-6f6e22806c34 // indirect
 )
